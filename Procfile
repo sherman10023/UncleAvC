@@ -1,1 +1,1 @@
-web: python uncleavc.py
+worker: python uncleavc.py
