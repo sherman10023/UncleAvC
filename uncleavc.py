@@ -4,7 +4,7 @@ updater = Updater (token = '952376782:AAGilgCGWXhlZ1pb_MMITPGJNPlt_AXVN2o')
 dispatcher = updater.dispatcher
 
 def startCommand (bot, update):
-    bot.send_message (chat_id = update.message.chat_id, text = 'Hello, Hosehbo?')
+    bot.send_message (chat_id = update.message.chat_id, text = 'To start, please type what info are you finding out?\n- Battery qualification')
 
 def textMessage (bot, update):
     request = apiai.ApiAI ('07cf4955477b4435ab349e6a9cfc56d8').text_request()
